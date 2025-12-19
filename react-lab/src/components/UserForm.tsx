@@ -57,7 +57,6 @@ const [formData, setFormData] = useState<Omit<User,'id'>>({
     }else{
     onAdd(formData)
     }
-
     onReset()
   }
 
